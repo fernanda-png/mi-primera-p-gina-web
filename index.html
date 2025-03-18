@@ -1,45 +1,147 @@
+<!DOCTYPE HTML>
+<html lang="es">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Aventuras Globales - Agencia de Viajes</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            background-color: #FFEE58; /* Amarillo canario */  
+            color: #333;  
+            text-align: center;  
+            margin: 0;  
+            padding: 0;  
+        }  
+        header {  
+            background-color: #225373; /* Azul petróleo */
+            text-align:center<img src="" alt="">  
+            padding: 20px;  
+        }  
+        header img {  
+            max-width: 150px;  
+            border-radius: 10px;  
+        }  
+        h1 {  
+            color: white;  
+            margin: 0;  
+        }  
+        section {  
+            padding: 20px;  
+        }  
+        .services {  
+            background-color: #FFF176; /* Un tono más claro de amarillo para contraste */  
+            padding: 20px;  
+            border-radius: 10px;  
+            margin: 20px;  
+        }  
+        video {  
+            width: 80%;  
+            max-width: 560px;  
+            border-radius: 10px;  
+        }  
+        .contact {  
+            background-color: #225373;  
+            color: white;  
+            padding: 20px;  
+            border-radius: 10px;  
+            margin: 20px;  
+        }  
+        .contact a {  
+            color: #FFD700; /* Amarillo dorado */  
+            text-decoration: none;  
+        }  
+        table {  
+            width: 80%;  
+            margin: 20px auto;  
+            border-collapse: collapse;  
+        }  
+        th, td {  
+            border: 2px solid #225373;  
+            padding: 10px;  
+            text-align: center;  
+        }  
+        th {  
+            background-color: #225373;  
+            color: white;  
+        }  
+        img {  
+            max-width: 100px;  
+            border-radius: 10px;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <!-- Encabezado con Logo -->  
+    <header>  
+        <img src="images/logo.jpg" alt="Logo Aventuras Globales"></h1>  
+        <p style="color: white;">Tu agencia de viajes de confianza</p>  
+    </header>  
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Actividad con Productos y Menú Desplegable</title>
-</head>
-<body>
-    <div id="header">
-        <h1>Catálogo de Productos</h1>
-        <ul class="nav">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Productos</a>
-                <ul>
-                    <li><a href="#producto1">Producto 1</a></li>
-                    <li><a href="#producto2">Producto 2</a></li>
-                    <li><a href="#producto3">Producto 3</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </div>
+    <!-- Sección de Presentación -->  
+    <section>  
+        <h2>Sobre Nosotros</h2>  
+        <p>Aventuras Globales es una agencia de viajes dedicada a ofrecer experiencias inolvidables   
+            en los destinos más increíbles del mundo. Con años de experiencia, ayudamos a nuestros clientes   
+            a planificar sus vacaciones perfectas, ofreciendo paquetes personalizados y asesoramiento experto.</p>  
+    </section>  
 
-    <div class="product-gallery">
-        <div class="product-container" id="producto1">
-            <h2><a href="pagina_producto1.html">Producto 1</a></h2>
-            <p>Descripción del producto 1. Este producto es excelente para...</p>
-            <p>Precio: $10.00</p>
-        </div>
-        <div class="product-container" id="producto2">
-            <h2><a href="pagina_producto2.html">Producto 2</a></h2>
-            <p>Descripción del producto 2. Este producto es ideal para...</p>
-            <p>Precio: $15.00</p>
-        </div>
-        <div class="product-container" id="producto3">
-            <h2><a href="pagina_producto3.html">Producto 3</a></h2>
-            <p>Descripción del producto 3. Este producto es perfecto para...</p>
-            <p>Precio: $20.00</p>
-        </div>
-    </div>
+    <!-- Sección de Servicios -->  
+    <section class="services">  
+        <h2>Servicios que Ofrecemos</h2>  
+        <ul style="list-style-type: none; padding: 0;">  
+            <li>🌍 Paquetes turísticos nacionales e internacionales</li>  
+            <li>✈️ Reservas de vuelos y hoteles</li>  
+            <li>🚢 Cruceros y tours guiados</li>  
+            <li>🛡️ Seguros de viaje</li>  
+            <li>🎟️ Promociones exclusivas para nuestros clientes</li>  
+        </ul>  
+    </section>  
 
-</body>
+    <!-- Sección de Video -->  
+    <section>  
+        <h2>Explora el Mundo con Nosotros</h2>  
+        <video controls>
+    <source src="video/video.mp4" type="video/mp4">
+</video>
+    </section>  
+
+    <!-- Tabla de Información sobre Viajes -->  
+    <section>  
+        <h2>Ofertas Especiales</h2>  
+        <table>  
+    <tr>  
+        <th>Viajes</th>  
+        <th>Paquetes</th>  
+        <th>Precio</th>  
+        <th>Fecha</th>  
+    </tr>  
+    <tr>  
+        <td><img src="images/viaje1.jpg" alt="Viaje 1"><br>París, Francia</td>  
+        <td><img src="images/paquete1.jpg" alt="Paquete 1"><br>Vuelo + Hotel</td>  
+        <td>$1,500 USD</td>  
+        <td>15 de Julio, 2025</td>  
+    </tr>  
+    <tr>  
+        <td><img src="images/viaje2.jpg" alt="Viaje 2"><br>Roma, Italia</td>  
+        <td><img src="images/paquete2.jpg" alt="Paquete 2"><br>Tour Guiado</td>  
+        <td>$1,800 USD</td>  
+        <td>10 de Agosto, 2025</td>  
+    </tr>  
+    <tr>  
+        <td><img src="images/viaje3.jpg" alt="Viaje 3"><br>Cancún, México</td>  
+        <td><img src="images/paquete3.jpg" alt="Paquete 3"><br>Todo Incluido</td>  
+        <td>$900 USD</td>  
+        <td>5 de Diciembre, 2025</td>  
+    </tr>  
+</table>
+
+    <!-- Sección de Contacto -->  
+    <section class="contact">  
+        <h2>Contacto</h2>  
+        <p>📧 Correo electrónico: <a href="mailto:denisangelesbolanos@gmail.com">denisangelesbolanos@gmail.com</a></p>  
+        <p>📞 Teléfono: <a href="tel:+527711212682">771-121-2682</a></p>  
+        <p>🌐 Facebook: <a href="https://www.facebook.com/share/155AswKWTS/" target="_blank">Visítanos en Facebook</a></p>  
+    </section>  
+</body>  
 </html>
